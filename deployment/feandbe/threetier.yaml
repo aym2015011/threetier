@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "mohanraz81/anzbackend"
+          image: "aym2015011/anzbackend"
           ports:
             - name: http
               containerPort: 80
@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz81/anzfrontend"
+        image: "aym2015011/anzfrontend"
         ports:
           - name: http
             containerPort: 80
